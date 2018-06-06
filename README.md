@@ -14,7 +14,7 @@
 2.将STN/include/caffe中的.hpp（除filler.hpp）复制到 caffe-master/include/caffe/layers/ 中；
 将.hpp中的 #include "caffe/neuron_layers.hpp" 改为 #include "caffe/layers/loss_layer.hpp"；
 
-3.将STN/include/caffe/filler.hpp中修改的部分加入到caffe-master/include/caffe/filler.hpp 中。
+3.将STN/include/caffe/filler.hpp中修改的部分加入到caffe-master/include/caffe/filler.hpp 中
 
 4.将STN/src/caffe/layers/ 中的文件复制到 caffe-master/src/caffe/layers/ 中；
 
@@ -33,5 +33,7 @@ st_loss_layer.cpp：
 #include "caffe/st_loss_layer.hpp" -> #include "caffe/layers/st_loss_layer.hpp"
 
 .cu 和 .cpp 做相同的修改
+
+5.将STN/src/caffe/proto/caffe.proto 中修改的部分加入到caffe-master/src/caffe/proto/caffe.proto 中
 
 5.重新编译即可
