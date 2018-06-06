@@ -18,17 +18,17 @@
 
 4.将STN/src/caffe/layers/ 中的文件复制到 caffe-master/src/caffe/layers/ 中；
 
-loc_loss_layer.cpp:
+loc_loss_layer.cpp: 
 #include "caffe/vision_layers.hpp" -> //#include "caffe/vision_layers.hpp"
 #include "caffe/loc_loss_layer.hpp" -> #include "caffe/layers/loc_loss_layer.hpp"
 
-power_file_layer.cpp:
+power_file_layer.cpp: 
 #include "caffe/power_file_layer.hpp" -> #include "caffe/layers/power_file_layer.hpp"
 
-st_layer.cpp:
+st_layer.cpp: 
 #include "caffe/st_layer.hpp" -> #include "caffe/layers/st_layer.hpp"
 
-st_loss_layer.cpp：
+st_loss_layer.cpp： 
 #include "caffe/vision_layers.hpp" -> //#include "caffe/vision_layers.hpp"
 #include "caffe/st_loss_layer.hpp" -> #include "caffe/layers/st_loss_layer.hpp"
 
