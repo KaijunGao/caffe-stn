@@ -4,6 +4,7 @@
 
 参考的caffe实现 https://github.com/happynear/SpatialTransformerLayer 
 因为时间比较久，所以不适用于新版的caffe
+
 另外，移植过程参考了 https://blog.csdn.net/kuaitoukid/article/details/51035028
 同时记录了一些自己的理解
 
